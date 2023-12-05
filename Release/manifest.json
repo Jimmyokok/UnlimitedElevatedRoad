@@ -1,0 +1,9 @@
+{
+    "name": "UnlimitedElevatedRoad",
+    "version_number": "0.2.0",
+    "website_url": "https://github.com/Jimmyokok/UnlimitedElevatedRoad",
+    "description": "[BETA]More freedom for elevated road construction",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
