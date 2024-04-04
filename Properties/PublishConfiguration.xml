@@ -1,0 +1,57 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="ConfigurableElevatedRoad" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="In-game configurable options for elevated road construction, including pillar interval, edge length, steepness restrictions and no pillar/no height restriction construction mode." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+If you want anarchy around elevated road construction,this mod suits you. With this mod, you are able to construction elevated roads/bridges/intersections at ease, free from the annoying pillars/steepness/length restrictions, and even build a roller coaster of road!
+
+## Feature
+
+* Configurable pillar interval (20m-800m).
+* Optional no pillar construction mode.
+* Configurable maximum edge section length (20m-800m).
+* Optional no height limitation construction mode, that lifts the height restriction to 1000m.
+* Optional no steepness limitation construction mode.
+* One-click options to restore vanilla/mod default settings.
+* The above settings all appear in the game setting menu and are recommended to be configured in-game. The changes you've made **immediately take effect** and persist in the configuration file.
+	
+## Important Notes
+
+* This mod affects save games, as the road/bridges/tracks you've built are just there.
+* This mod is currently BETA and still needs more testing. FEEDBACKS are most welcomed(via Github issues).
+* Setting the maximum edge length to extreme values would possibly cause weird behaviors, e.g. extremely difficult to delete a piece of road. Please be cautious when playing with the maximum edge length.
+
+## Technical
+
+* Modified System: None
+
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="docs/1.png" />
+	<Screenshot Value="docs/2.png" />
+	<Screenshot Value="docs/3.png" />
+	<Screenshot Value="docs/4.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="Code Mod" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="1.1.*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="" />
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog>	
+v1.0.0
+* Mod exists for beta.
+	</ChangeLog>
+	<ExternalLink Type="github" Url="https://github.com/Jimmyokok/UnlimitedElevatedRoad" />
+</Publish>
