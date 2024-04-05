@@ -3,6 +3,7 @@ using HarmonyLib;
 
 namespace ConfigurableElevatedRoad.Patches
 {
+    /*
     [HarmonyPatch]
     class ConfigurableElevatedRoadPatches
     {
@@ -13,4 +14,5 @@ namespace ConfigurableElevatedRoad.Patches
             __instance.World.GetOrCreateSystemManaged<NetCompositionDataFixSystem>().Update();
         }
     }
+    */
 }

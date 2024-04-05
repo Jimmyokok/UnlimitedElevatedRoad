@@ -21,6 +21,8 @@ If you want anarchy around elevated road construction,this mod suits you. With t
 * Modified System: None
 
 ## Changelog
+* v1.0.1
+	* Fixed compatibility with ExtraLib and all mods that depend on it.
 
 * v1.0.0
   * Mod exists for beta.

@@ -19,7 +19,7 @@ namespace ConfigurableElevatedRoad.Systems
     {
         private PrefabSystem m_PrefabSystem;
         private EntityQuery m_PrefabQuery;
-        public bool need_update = true;
+        public bool need_update = false;
         public bool use_default_elevated_length = false;
         public bool use_default_pillar_interval = false;
         public bool unbound_steepness = false;
