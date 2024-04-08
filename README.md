@@ -21,6 +21,10 @@ If you want anarchy around elevated road construction,this mod suits you. With t
 * Modified System: None
 
 ## Changelog
+
+- v1.0.2
+  - Fixed a bug that leads to all sorts of weird behaviors when updating existing roads.
+
 * v1.0.1
 	* Fixed compatibility with ExtraLib and all mods that depend on it.
 
